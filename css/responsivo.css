@@ -1,0 +1,158 @@
+
+@media (min-width: 1675px) and (max-width:2000px) {
+    .logo img {
+        width: 22rem;
+        height: 20rem;
+    }
+
+    .logo {
+        margin-bottom: -8.3rem;
+        margin-top: -3rem;
+    }
+
+    .menu ul li a {
+        font-size: 2.6rem;
+    }
+
+    .main-content {
+        max-width: 140rem;
+        font-size: 3rem;
+    }
+
+    .main-content.intro-content {
+        max-width: 140rem;
+        padding-bottom: 1rem;
+    }
+
+    .intro-content {
+        top: -14rem;
+    }
+
+    .about-me h2 {
+        font-size: 6rem;
+        margin-top: 20rem;
+    }
+
+    .about-me p {
+        font-size: 3rem;
+    }
+
+    .intro-img img {
+        width: 100%;
+        max-width: 73.219rem;
+        height: auto;
+        margin-bottom: -25.3rem;
+    }
+}
+
+
+@media (min-height:1080px) {
+    .intro-img {
+        margin-bottom: -9rem;
+    }
+}
+
+@media (max-width:936px) {
+    .main-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .intro-content {
+        margin-top: -1rem;
+        padding-top: 12rem;
+        max-width: 75rem;
+        min-width: 40rem;
+    }
+
+    body {
+        min-width: 29rem;
+        max-width: 100vh;
+    }
+
+    p {
+        font-size: 3rem;
+    }
+
+    h4,
+    h5 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 6rem;
+    }
+
+
+    .Specialties-content {
+        gap: 3rem;
+    }
+
+    .intro-img img {
+        min-width: 57rem;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .imagem img,
+    .gallery-img img {
+        max-width: 100%;
+        max-height: auto;
+    }
+
+    label {
+        font-size: 3rem;
+    }
+
+    .menu {
+        bottom: 0;
+        text-align: center;
+        display: none;
+        max-width: 50%;
+    }
+
+    .menu ul li a {
+        font-size: 2.7rem;
+    }
+
+    .close-menu {
+        position: fixed;
+        z-index: 2;
+        top: 4rem;
+        left: 1rem;
+    }
+
+    .close-menu-label::after {
+        content: '≡';
+        position: fixed;
+        z-index: 2;
+        top: 3.6rem;
+        left: 1rem;
+        background: var(--primary-color);
+        color: white;
+        font-size: 3rem;
+        line-height: 3rem;
+        width: 2.5rem;
+        height: 2.6rem;
+        text-align: center;
+        padding: 0.5rem;
+        cursor: pointer;
+    }
+
+    .menu-content,
+    .menu-content ul {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .menu-content {
+       height: 100vh
+    }
+
+    .close-menu:checked~.menu {
+        display: block;
+    }
+
+}
