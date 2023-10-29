@@ -20,7 +20,6 @@ font-family: 'Open Sans' , 'sans-serif'; */
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
-   
 }
 
 body {
@@ -28,9 +27,7 @@ body {
     font-size: 2rem;
     color: var(--primary-color);
     line-height: 1.5;
-    width: 100%;
 }
-
 a {
     text-decoration: none;
 }
@@ -85,7 +82,8 @@ h5 {
 .white-bg {
     background-image: url('../img/logos/image00004.png');
     background-position: center center;
-    background-size: cover;
+    background-size: 100vw;
+    background-repeat: no-repeat;
     color: black;
 }
 
@@ -269,6 +267,7 @@ h5 {
 .gallery-content {
     max-width: 97rem;
     padding-top: 10rem;
+    margin-bottom: 6rem;
 }
 
 
@@ -281,30 +280,28 @@ h5 {
     transform: translate(2%, 2%) scale(1.1) rotate(0.2deg);
 }
 
-
-.responsive-table {
-    overflow: hidden;
+#responsive-table {
     overflow-x: auto;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 7rem;
+    margin: 7rem 0;
 }
 
 table caption {
     font-style: italic;
     font-size: 1.6rem;
     margin-bottom: 1rem;
+    margin-left: -50rem;
 }
 
 table td, table th {
-    white-space: nowrap;
     border: 0.3rem solid var(--light-color);
     text-align: left;
     padding: 0.9rem;
-    white-space: wrap;
+    white-space: rap;
 }
 
 tfoot td, table th{
@@ -437,4 +434,18 @@ footer {
 
 .footer a:hover {
     color: var(--white);
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    color: var(--primary-color);
+    background: rgba(224, 81, 110, 0.8);
+    height: 5rem;
+    width:5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

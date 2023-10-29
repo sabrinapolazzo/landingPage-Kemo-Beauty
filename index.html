@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kemo Danielli Beauty</title>
-    <link rel="stylesheet" href="css/kemo.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsivo.css">
+    <link rel="shortcut icon" href="/img/logos/image00003-removebg.png" />
 </head>
 
 <body>
@@ -19,7 +20,7 @@
             </h1>
 
             <nav>
-                <ul>
+                <ul onclick="getElementById('close-menu').checked = false;">
                     <li><a href="#intro">Sobre mim</a></li>
                     <li><a href="#specialities">Especialidades</a></li>
                     <li><a href="#top3-grid">Top 3</a></li>
@@ -31,12 +32,14 @@
         </div>
     </aside>
 
-    <div class="menu-spacing"></div>
+    <div id="spacing-display" class="menu-spacing">
+        <img src="" alt="">
+    </div>
 
     <section id="intro" class="intro main-bg allsection">
         <div class="main-content intro-content">
             <div class="about-me">
-                <h2>Quem eu realmente sou?</h2>
+                <h2 class="font-size-17">Quem eu realmente sou?</h2>
                 <p>Meu nome é Kemo Danielli maquiadora há 7 anos, sou especialista em maquiagem para noivas e
                     maquiagem social. Sou também Lash Design eu amo realçar a beleza da mulher através do olhar.
                     Ministro cursos profissionais para formar novos profissionais na área da beleza. </p>
@@ -50,7 +53,7 @@
 
     <section id="specialities" class="Specialties allsection">
         <div class="main-content white-bg Specialties-content">
-            <h2>Especialidades</h2>
+            <h2 class="font-size-15">Especialidades</h2>
             <h5>Curso Maquiagem Profissional</h5>
             <p>Nesse curso vou te mostrar técnicas e também outras informações relacionadas à profissão de um maquiador,
                 assim como falar da maquiagem para diferentes tipos de pele e idades.
@@ -73,7 +76,7 @@
 
     <section id="top3-grid" class="top3-grid main-bg allsection">
         <div class=" main-content top3-grid-content">
-            <h2>Top 3 jobs</h2>
+            <h2 class="font-size-17">Top 3 jobs</h2>
             <p class="grid-description">Meus trabalhos Top 3</p>
             <div class="grid">
                 <div class="imagem">
@@ -94,7 +97,7 @@
 
     <section id="gallery" class="white-bg allsection">
         <div class=" main-content gallery-content">
-            <h2>Galeria</h2>
+            <h2 class="font-size-17">Galeria</h2>
             <p class="grid-description">Aqui estão alguns dos meus trabalhos</p>
 
             <div class="grid">
@@ -131,11 +134,11 @@
 
     <section id="pricing" class="main-bg allsection">
         <div class="main-content pricing-content">
-            <h2>Investimentos</h2>
+            <h2 class="font-size-15">Investimentos</h2>
             <p>A precificação é muito importante no momento da tomada de decisão por isso essa seção é especialmente
                 para lhe deixar informada(o) sobre os meus valores de serviços.</p>
 
-            <div class="responsive-table">
+            <div id="responsive-table">
                 <table>
                     <caption>Tabela de preços</caption>
 
@@ -188,7 +191,7 @@
     <section id="contact" class="white-bg allsection">
         <div class="main-content contact-content">
             <div class="descrição">
-                <h2>Deseja um atendimento personalizado? </h2>
+                <h2 class="font-size-14">Deseja um atendimento personalizado? </h2>
                 <p><i>Para ter um atendimento personalizado e saber mais sobre os nossos serviços e valores entre em
                         contato conosco via redes sociais ou preencha o formulário abaixo.</i></p>
             </div>
@@ -246,6 +249,7 @@
                 </svg></a></p>
     </footer>
 
+    <a href="#intro" class="back-to-top"><span>&#8679;</span></a>
 
      <script type="text/javascript" src="/js/app.js"></script>
 </body>
