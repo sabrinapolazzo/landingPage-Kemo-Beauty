@@ -290,13 +290,6 @@ table {
     margin: 7rem 0;
 }
 
-table caption {
-    font-style: italic;
-    font-size: 1.6rem;
-    margin-bottom: 1rem;
-    margin-left: -50rem;
-}
-
 table td, table th {
     border: 0.3rem solid var(--light-color);
     text-align: left;
