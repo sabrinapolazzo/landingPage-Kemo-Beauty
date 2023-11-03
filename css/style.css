@@ -1,9 +1,10 @@
 :root {
     --primary-color: #000;
     --white: #fff;
-    --light-color: #feaee175;
+    --light-color: #e6c038;
+    --input-color: #deaf954a;
     --gap: 3rem;
-    --secondary-color: rgb(224, 81, 110);
+    --secondary-color: #b16c4a;
     --decoration-color: rgb(144, 120, 65); 
 }
 
@@ -73,7 +74,7 @@ h5 {
 
 
 .main-bg {
-    background-image: url('/img/main-bg.svg');
+    background-image: url('/img/main-bg.jpg');
     background-position: center center;
     background-size: cover;
     color: black;
@@ -107,7 +108,7 @@ h5 {
     z-index: 1;
     top: 0;
     width: 100%;
-    border-bottom: 0.35rem solid var(--light-color);
+    border-bottom: 0.35rem solid var(--secondary-color);
 
 }
 
@@ -291,14 +292,14 @@ table {
 }
 
 table td, table th {
-    border: 0.3rem solid var(--light-color);
+    border: 0.3rem solid var(--secondary-color);
     text-align: left;
     padding: 0.9rem;
     white-space: rap;
 }
 
 tfoot td, table th{
-    background: var(--light-color);
+    background: var(--input-color);
 }
 
 
@@ -352,12 +353,12 @@ tfoot td, table th{
 .form-group input,
 .form-group textarea {
     border: 0.1rem solid var(--secondary-color);
-    background: rgba(249, 170, 219, 0.185);
+    background: var(--input-color);
     padding: 1.5rem 2rem;
     width: 100%;
     box-sizing: border-box;
     font-size: 1.7rem;
-    outline: #fff;
+    outline: var(--white);
 }
 
 .form-group input:focus,
@@ -410,9 +411,10 @@ button:disabled {
 }
 
 footer {
-    height: 6rem;
+    background-color: var(--input-color);
+    height: 9rem;
     padding: 0.2rem;
-   
+    border-top: 0.35rem solid var(--secondary-color);
 }
 
 .footer a {
@@ -429,16 +431,11 @@ footer {
     color: var(--white);
 }
 
-.back-to-top {
+
+.whatsapp-icon {
     position: fixed;
     bottom: 2rem;
     right: 2rem;
-    color: var(--primary-color);
-    background: rgba(224, 81, 110, 0.8);
-    height: 5rem;
-    width:5rem;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 6rem;
+    height: 6rem;
 }

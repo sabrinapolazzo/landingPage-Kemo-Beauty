@@ -102,7 +102,7 @@
 
     .menu-spacing {
         height: 8rem;
-        background-color: white;
+        background-color: var(--white);
         position: fixed;
         width: 100%;
         z-index: 1;
@@ -111,10 +111,11 @@
 
     .menu-spacing img {
         margin-top: -2.3rem;
-        width:  14rem;
+        width: 14rem;
         height: 14rem;
         content: url(/img/logos/image00006.png);
     }
+    
     .close-menu-label::after {
         content: '≡';
         position: fixed;
