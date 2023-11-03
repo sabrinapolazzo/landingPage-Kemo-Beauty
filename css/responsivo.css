@@ -204,8 +204,6 @@
 
     .intro-img img {
         width: 100%;
-        max-width: 73.219rem;
-        height: auto;
         margin-bottom: -25.3rem;
     }
 }
@@ -215,6 +213,7 @@
     .logo img {
         width: 22rem;
         height: 20rem;
+        padding-bottom: 2rem;
     }
 
     .logo {
@@ -223,12 +222,12 @@
     }
 
     .menu ul li a {
-        font-size: 2.6rem;
+        font-size: 2.3rem;
     }
 
     .main-content {
         max-width: 140rem;
-        font-size: 3.2rem;
+        font-size: 2.7rem;
     }
 
     .main-content.intro-content {
@@ -237,28 +236,20 @@
         top: 4rem;
     }
 
-    .about-me h2 {
-        margin-top: 5rem;
+    .about-me p {
+        font-size: 3rem;
     }
 
     h2 {
-        font-size: 6rem;
+        font-size: 5rem;
     }
 
     .form-grid {
         font-size: 3.5rem;
     }
 
-    .form-grid > legend {
-        font-size: 2.7rem;
-    }
-
     .grid h4 {
         padding-bottom: 5rem;
-        font-size: 4rem;
-    }
-
-    .about-me p {
         font-size: 3.5rem;
     }
 
@@ -326,11 +317,15 @@
     }
 
     .about-me h2 {
-        margin-top: 5rem;
+        margin-top: 7rem;
     }
 
     h2 {
-        font-size: 8rem; 
+        font-size: 7rem; 
+    }
+
+    h5 {
+        font-size: 3rem;
     }
 
     .grid h4 {
